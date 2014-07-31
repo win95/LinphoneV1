@@ -1,0 +1,10 @@
+#!/bin/sh
+echo "Thuc hien qua trinh copy icon"
+cd gtk-glade
+sudo cp username.glade 		/usr/local/share/linphone
+cd ../
+cd pixmaps
+sudo cp refresh_icon.png 	/usr/local/share/pixmaps/linphone
+sudo cp chat_icon.png  		/usr/local/share/pixmaps/linphone
+sudo cp exit_icon.png  		/usr/local/share/pixmaps/linphone
+sudo cp send_file_icon.png 	/usr/local/share/pixmaps/linphone
